@@ -1,21 +1,20 @@
 #include "main.h"
-#include <stdio.h>
-
 /**
- * print_most_numbers - Print numbers between 0 to 9 incl.
- *   *
- *    * Return: Void.
+ * reverse_array - reverse array of integers
+ * @a: array
+ *    * @n: number of elements of array
+ *     *
+ * Return: void
  */
-void print_most_numbers(void)
+void reverse_array(int *a, int n)
 {
 int i;
+int t;
 
-for (i = 0; i < 10; i++)
+for (i = 0; i < n--; i++)
 {
-if (i != 2 && i != 4)
-{
-_putchar(i + '0');
+t = a[i];
+a[i] = a[n];
+a[n] = t;
 }
-}
-_putchar('\n');
 }
