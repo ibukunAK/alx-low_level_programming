@@ -1,5 +1,7 @@
 #include "main.h"
+#include <string.h>
 #include <stdio.h>
+
 
 /**
  * rot13 - encoder rot13
