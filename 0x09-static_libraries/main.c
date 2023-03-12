@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * main - entry point
+ * main - Entry point
  * Return: 0
  */
 int main(void)
 {
-_puts("\"At the end of the day, my goal to be the best hacker\"\n\t- Kevin");
+_puts("\"At the end of the day, my goal was to be the best hacker\"\n\t- Kevin Mitnick");
 return (0);
 }
